@@ -6,11 +6,17 @@
 
 body {
   padding-top: 54px;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -26,4 +32,56 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+nav {
+  background-color: #657384;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+
+footer {
+  background-color: #657384;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /*border-radius: 50%;*/
+    margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-logo {
+  background: #007bb5;
+  color: white;
 }
